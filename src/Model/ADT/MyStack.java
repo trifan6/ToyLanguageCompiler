@@ -53,14 +53,15 @@ public class MyStack<T> implements MyIStack<T>
     @Override
     public String toString()
     {
-        String str = "[";
-        for(int i = stack.size() - 1; i >= 0; i--)
-        {
-            str = str + this.stack.get(i).toString();
-            if (i>0) str = str + ", ";
+        StringBuilder str = new StringBuilder("[");
+        for (int i = stack.size() - 1; i >= 0; i--) {
+            str.append(this.stack.get(i).toString());
+            if (i > 0) {
+                str.append(", ");
+            }
         }
-        str = str + "]";
-        return str;
+        str.append("]");
+        return str.toString();
     }
 
     @Override

@@ -32,13 +32,12 @@ public class MyTable implements MyITable
     }
 
     @Override
-    public BufferedReader get(String key) throws MyException
-    {
-        if (!this.fileTable.containsKey(key))
-        {
+    public BufferedReader get(String key) throws MyException {
+        BufferedReader br = this.fileTable.get(key);
+        if (br == null) {
             throw new MyException("Key not found");
         }
-        return this.fileTable.get(key);
+        return br;
     }
 
     @Override
@@ -48,13 +47,11 @@ public class MyTable implements MyITable
     }
 
     @Override
-    public void remove(String key) throws MyException
-    {
-        if(!this.fileTable.containsKey(key))
-        {
+    public void remove(String key) throws MyException {
+        BufferedReader removedFile = this.fileTable.remove(key);
+        if (removedFile == null) {
             throw new MyException("Key not found");
         }
-        this.fileTable.remove(key);
     }
 
     @Override

@@ -1,0 +1,381 @@
+ExeStack:
+(int a,(int v,(a=2,if(a == 2) then(print(true)) else(print(false)))))
+SymTable
+Out:
+FileTable:
+Heap:
+ExeStack:
+int a
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+Out:
+FileTable:
+Heap:
+ExeStack:
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+ExeStack:
+int v
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+ExeStack:
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+ExeStack:
+a=2
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+ExeStack:
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+ExeStack:
+print(true)
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+ExeStack:
+SymTable
+a: 2
+v: 0
+Out:
+true
+FileTable:
+Heap:
+Id: 1
+ExeStack:
+(int a,(int v,(a=2,if(a == 2) then(print(true)) else(print(false)))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+int a
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+int a
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+int v
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+int v
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+a=2
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+a=2
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+print(true)
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+print(true)
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 1
+ExeStack:
+SymTable
+a: 2
+v: 0
+Out:
+true
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int a,(int v,(a=2,if(a == 2) then(print(true)) else(print(false)))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int a
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int a
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(a=2,if(a == 2) then(print(true)) else(print(false))))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int v
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int v
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(a=2,if(a == 2) then(print(true)) else(print(false)))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+a=2
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+a=2
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 0
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+if(a == 2) then(print(true)) else(print(false))
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(true)
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(true)
+SymTable
+a: 2
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+SymTable
+a: 2
+v: 0
+Out:
+true
+FileTable:
+Heap:
+----------------------------------------

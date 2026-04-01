@@ -1,0 +1,1869 @@
+ExeStack:
+(string varf,(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+ExeStack:
+string varf
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+ExeStack:
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+ExeStack:
+varf=test.in
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+ExeStack:
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+ExeStack:
+OpenRFile: varf
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+ExeStack:
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+ExeStack:
+int varc
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+ExeStack:
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+ExeStack:
+readFile(varf,varc)
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+ExeStack:
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+ExeStack:
+print(varc)
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+ExeStack:
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+ExeStack:
+readFile(varf,varc)
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+ExeStack:
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+ExeStack:
+print(varc)
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+ExeStack:
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+test.in
+Heap:
+ExeStack:
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+Heap:
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int v,(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int v
+(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a)))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int v
+(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a)))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a)))))))
+SymTable
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(Ref(int) a,(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a)))))))
+SymTable
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+Ref(int) a
+(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))
+SymTable
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+Ref(int) a
+(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))
+SymTable
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))
+SymTable
+a: (0, int)
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(v=10,(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))))
+SymTable
+a: (0, int)
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+v=10
+(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a)))))
+SymTable
+a: (0, int)
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+v=10
+(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a)))))
+SymTable
+a: (0, int)
+v: 0
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a)))))
+SymTable
+a: (0, int)
+v: 10
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(new(a, 22),(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a)))))
+SymTable
+a: (0, int)
+v: 10
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+new(a, 22)
+(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))
+SymTable
+a: (0, int)
+v: 10
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+new(a, 22)
+(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))
+SymTable
+a: (0, int)
+v: 10
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 0
+ExeStack:
+(fork((wH(a, 30),(v=32,(print(v),print(rH(a)))))),(print(v),print(rH(a))))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 0
+ExeStack:
+fork((wH(a, 30),(v=32,(print(v),print(rH(a))))))
+(print(v),print(rH(a)))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 0
+ExeStack:
+fork((wH(a, 30),(v=32,(print(v),print(rH(a))))))
+(print(v),print(rH(a)))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 0
+ExeStack:
+(print(v),print(rH(a)))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 1
+ExeStack:
+(wH(a, 30),(v=32,(print(v),print(rH(a)))))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 0
+ExeStack:
+(print(v),print(rH(a)))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 1
+ExeStack:
+(wH(a, 30),(v=32,(print(v),print(rH(a)))))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 0
+ExeStack:
+print(v)
+print(rH(a))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 1
+ExeStack:
+wH(a, 30)
+(v=32,(print(v),print(rH(a))))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 0
+ExeStack:
+print(v)
+print(rH(a))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 1
+ExeStack:
+wH(a, 30)
+(v=32,(print(v),print(rH(a))))
+SymTable
+a: (1, int)
+v: 10
+Out:
+FileTable:
+Heap:
+1 -> 22
+----------------------------------------
+Id: 0
+ExeStack:
+print(rH(a))
+SymTable
+a: (1, int)
+v: 10
+Out:
+10
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+(v=32,(print(v),print(rH(a))))
+SymTable
+a: (1, int)
+v: 10
+Out:
+10
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 0
+ExeStack:
+print(rH(a))
+SymTable
+a: (1, int)
+v: 10
+Out:
+10
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+(v=32,(print(v),print(rH(a))))
+SymTable
+a: (1, int)
+v: 10
+Out:
+10
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 0
+ExeStack:
+SymTable
+a: (1, int)
+v: 10
+Out:
+10
+30
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+v=32
+(print(v),print(rH(a)))
+SymTable
+a: (1, int)
+v: 10
+Out:
+10
+30
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+v=32
+(print(v),print(rH(a)))
+SymTable
+a: (1, int)
+v: 10
+Out:
+10
+30
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+(print(v),print(rH(a)))
+SymTable
+a: (1, int)
+v: 32
+Out:
+10
+30
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+(print(v),print(rH(a)))
+SymTable
+a: (1, int)
+v: 32
+Out:
+10
+30
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+print(v)
+print(rH(a))
+SymTable
+a: (1, int)
+v: 32
+Out:
+10
+30
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+print(v)
+print(rH(a))
+SymTable
+a: (1, int)
+v: 32
+Out:
+10
+30
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+print(rH(a))
+SymTable
+a: (1, int)
+v: 32
+Out:
+10
+30
+32
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+print(rH(a))
+SymTable
+a: (1, int)
+v: 32
+Out:
+10
+30
+32
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 1
+ExeStack:
+SymTable
+a: (1, int)
+v: 32
+Out:
+10
+30
+32
+30
+FileTable:
+Heap:
+1 -> 30
+----------------------------------------
+Id: 0
+ExeStack:
+(string varf,(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+string varf
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+string varf
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+varf=test.in
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+varf=test.in
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+OpenRFile: varf
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+OpenRFile: varf
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int varc
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int varc
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(string varf,(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+string varf
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+string varf
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+varf=test.in
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+varf=test.in
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+OpenRFile: varf
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+OpenRFile: varf
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int varc
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int varc
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(string varf,(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+string varf
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+string varf
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(varf=test.in,(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+varf=test.in
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+varf=test.in
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: 
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(OpenRFile: varf,(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+OpenRFile: varf
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+OpenRFile: varf
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(int varc,(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int varc
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+int varc
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf)))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 0
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),(readFile(varf,varc),(print(varc),closeRFile(varf))))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(readFile(varf,varc),(print(varc),closeRFile(varf)))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+readFile(varf,varc)
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 15
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+(print(varc),closeRFile(varf))
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+print(varc)
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+closeRFile(varf)
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+test.in
+Heap:
+----------------------------------------
+Id: 0
+ExeStack:
+SymTable
+varf: test.in
+varc: 50
+Out:
+15
+50
+FileTable:
+Heap:
+----------------------------------------
